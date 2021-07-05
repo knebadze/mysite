@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    
+</head>
+<body>
+    <div class="conteiner">
+    <header class="header">
+        <div class="logo">
+            <img src="./image/logo.png" alt="">
+        </div>
+        <nav class="meniu">
+            <ul>
+                <li><a href="">მთავარი</a></li>
+                <li><a href="">მაღაზია</a></li>
+                <li><a href="">ინფორმაცია</a>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="./pages/InformationOnDogBreedsi.html">ინფორმაცია ჯიშებზე</a></li>
+                        <li><a href="">ვეტ_ინფორმაცია</a></li>
+                    </ul>
+                </div>
+                </li>
+                <li><a href="">კონტაქტი</a></li>
+            </ul>
+        </nav>
+        <div class="logIn">
+            <form action="">
+                <input type="text" name="Uname" placeholder=" სახელი">
+                <input type="password"  name="password" placeholder=" პაროლი">
+                <button type="submit">შესვლა</button>
+                <input type="checkbox"  name="remember"> დამიმახსოვრე
+                <span><a href="">დაგავიწყდა პაროლი?</a></span>
+            </form>
+        </div>
+    </header>
+</div>
+<div class="padding"></div>
+<div class="conteiner">
+    <div id="slider">
+<div class="slider fade">
+    <div class="textslider">
+        
+        <h2>არგენტინული დოგი</h2>
+        <p>ეს ჯიში გამოირჩევა</p>
+        <div class="sliderUL">
+        <ul>
+            <li>სიცოცხლის ხანგრძლივობა</li>
+            <li>ძუს წონა და სიმაღლე</li>
+            <li>ხვადის წონა და სიმაღლე</li>
+        </ul>
+    </div>
+    
+    
+    <button type="button">მეტის ნახვა</button>
+    </div>
+
+    <div class="photoslider">
+        <img id="imgSlider" name="slideshowd" src="./image/argentino/argentino.jpg" alt="">
+        
+    </div>
+</div>
+<div class="slider fade">
+    <div class="textslider"> 
+        <h2>დობერმანი</h2>
+        <p>ეს ჯიში გამოირჩევა</p>
+        <div class="sliderUL">
+        <ul>
+            <li>სიცოცხლის ხანგრძლივობა</li>
+            <li>ძუს წონა და სიმაღლე</li>
+            <li>ხვადის წონა და სიმაღლე</li>
+        </ul>
+    </div>
+    
+    
+    <button type="button">მეტის ნახვა</button>
+    </div>
+
+    <div class="photoslider">
+        <img src="./image/doberman.jpg" alt="">
+    </div>
+</div>
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide()"></span> 
+    <span class="dot" onclick="currentSlide()"></span>
+</div> 
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a> 
+</div>
+</div>
+
+<div class="padding"></div>
+<div class="conteiner">
+<div class="AboutUs">
+    <h1>Our Company is a Collective of amazing people striving to build 
+        delightful to build delightful products. </h1>
+        <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point 
+            of using Lorem ipsum is that it has a more-or-less normal. It is a long
+            established fact that a reader will be distracted by the readable 
+            content of a page when looking at its layout.The point 
+            of using Lorem ipsum is that it has a more-or-less normal distracted
+            of letters, as opposed to using.
+        </p>
+        <button type="button" onclick="myFunction()">Read more</button>
+</div>
+</div>
+<div class="padding"></div>
+<div class="conteiner">
+    <h2 class="divH">რატომ ჩვენი საიტი?</h2>
+<div class="divebi">
+    <div class="div erti">
+        <img src="./image/dog.png" alt="">
+        <h2>პირადი პროფილი თქვენს საუკეთესო მეგობრებს</h2>
+        <div class="xazi"></div>
+        <p>გაიარეთ რეგისტრაცია და შეუქმენით თქვენს ძაღლს პირადი პროფილი რათა გამჭვირვალე გახდეს 
+            ყველა დაინტერესებული მომხმარებლისთვის მათი ჯიში, სურათები, საბუთები და მიღწევები</p>
+    </div>
+    <div class="div ori">
+        <img src="./image/dog2.png" alt="">
+        <h2>ყიდვა-გაყიდვა ან დართვა</h2>
+        <div class="xazi"></div>
+        <p>იყიდე-გაყიდე თქვენთვის სასურველი ჯიშის ლეკვი მარტივად ან მოუძებნე პარტნიორი თქვენს ძაღლს.</p>
+    </div>
+    <div class="div sami">
+        <img src="./image/vaccine.png" alt="">
+        <h2>ვეტ-ინფორმაცია </h2>
+        <div class="xazi"></div>
+        <p>ნახეთ ვეტ-ინფორმაცია თქვენი ახალი ოთხფეხა მეგობრის დროულად აცრის და საჭირო პრცოედურების
+             შესახებ ასევე ყველაზე გავრცელებულ დავადებებზე და მათ სიმპტომესა თუ პირველად მედიკამენტებზე</p>
+    </div>
+    <div class="div otxi">
+       <img src="./image/dog 4.png" alt="">
+        <h2>ინფორმაცია ჯიშებზე</h2>
+        <div class="xazi"></div>
+        <p>გაიგე მეტი თქვენთვის სასურველ ძაღლის ჯიშზე მათ ხასიათზე, ზრდის სტანდარტებზე, მის მიდრეკილებაზე აგრესისადმი და ა.შ.</p>
+    </div>
+</div>
+</div>
+<div class="padding"></div>
+
+<footer class="footer">
+    <div class="conteiner">
+    <div class="Ftext">
+        <p>© Made with <span> “KUKURI NEBADZE”.</span> </p>
+    </div>
+    <div class="social">
+        <ul>
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-twitter"></a></li>
+            <li><a href="#" class="fa fa-google-plus"></a></li>
+            <li><a href="#" class="fa fa-pinterest"></a></li>
+        </ul>
+    </div>
+</div>
+</footer>
+
+<script src="./js/main.js"></script>
+</body>
+</html>
